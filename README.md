@@ -1,5 +1,5 @@
 # flipchip-probe
 
-![top](https://github.com/jnowaczek/flipchip-probe/blob/master/DL%20card%20top.png)
+![top](https://github.com/jnowaczek/flipchip-probe/blob/master/render/P111%20top.png)
 
-![bot](https://github.com/jnowaczek/flipchip-probe/blob/master/DL%20card%20bot.png)
+![bot](https://github.com/jnowaczek/flipchip-probe/blob/master/render/P111%20bottom.png)
