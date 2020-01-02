@@ -6,7 +6,7 @@ NVSRAM-based replacement for 24 kiloword PDP-12 core memory expansion normally a
 ![bottom](https://github.com/jnowaczek/flipchip-probe/blob/master/render/MM24I%20bottom.png)
 
 ## Signal Cable Connector W021J
-Flat-flex cable version of the W021 intended for use with the BM24I
+Flat-flex cable version of the W021 intended for use with the MM24I
 ![top](https://github.com/jnowaczek/flipchip-probe/blob/master/render/W021J%20top.png)
 ![bottom](https://github.com/jnowaczek/flipchip-probe/blob/master/render/W021%20bottom.png)
 
