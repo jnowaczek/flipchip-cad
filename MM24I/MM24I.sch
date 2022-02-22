@@ -14609,11 +14609,6 @@ V2</text>
 <pinref part="C16" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="SUPPLY32" gate="GND" pin="GND"/>
-<pinref part="JP1" gate="G$1" pin="2"/>
-<wire x1="223.52" y1="160.02" x2="213.36" y2="160.02" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="C20" gate="G$1" pin="2"/>
 <wire x1="73.66" y1="96.52" x2="63.5" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="C19" gate="G$1" pin="2"/>
@@ -14649,6 +14644,11 @@ V2</text>
 <pinref part="SUPPLY27" gate="GND" pin="GND"/>
 <pinref part="C4" gate="G$1" pin="2"/>
 <wire x1="81.28" y1="154.94" x2="81.28" y2="160.02" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="G$1" pin="2"/>
+<pinref part="SUPPLY32" gate="GND" pin="GND"/>
+<wire x1="213.36" y1="160.02" x2="223.52" y2="160.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VCC" class="1">
@@ -14903,7 +14903,7 @@ V2</text>
 <approved hash="104,2,226.06,182.88,U4B,VCC,+5V,,,"/>
 <approved hash="104,2,226.06,180.34,U4B,VCC,+5V,,,"/>
 <approved hash="104,2,226.06,187.96,U4B,VCC,+5V,,,"/>
-<approved hash="104,3,71.12,160.02,U5,VDD,N$1,,,"/>
+<approved hash="104,3,71.12,160.02,U5,VDD,+5V,,,"/>
 <approved hash="113,3,213.36,174.33,SJ1,,,,,"/>
 <approved hash="113,3,213.123,162.786,JP1,,,,,"/>
 </errors>

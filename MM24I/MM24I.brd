@@ -37,7 +37,7 @@
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
@@ -114,6 +114,10 @@
 <plain>
 <text x="40.6" y="2.2" size="1" layer="51" ratio="15" align="top-left">+5</text>
 <text x="45.8" y="2.2" size="1" layer="51" ratio="15" align="top-right">GND</text>
+<text x="114.3254" y="2" size="1.778" layer="29" ratio="15" align="bottom-right">MM24I 24k Memory Expansion Mk I</text>
+<text x="114.3254" y="2" size="1.778" layer="30" ratio="15" rot="MR0">Designed by Julian Nowaczek, 2019-2022</text>
+<text x="114.3254" y="2" size="1.778" layer="1" ratio="15" align="bottom-right">MM24I 24k Memory Expansion Mk I</text>
+<text x="114.3254" y="2" size="1.778" layer="16" ratio="15" rot="MR0">Designed by Julian Nowaczek, 2019-2022</text>
 </plain>
 <libraries>
 <library name="MM24I">
@@ -2832,16 +2836,16 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <class number="1" name="power" width="0.3" drill="0.3">
 </class>
 </classes>
-<designrules name="jlcpcb-4layers">
-<description language="en">&lt;b&gt;JLCPCB design rules (4 layers)&lt;/b&gt;
+<designrules name="jlcpcb-2layers *">
+<description language="en">&lt;b&gt;JLCPCB design rules (2 layers)&lt;/b&gt;
 &lt;ul&gt;
-&lt;li&gt;Board thickness: 1.2mm&lt;/li&gt;
+&lt;li&gt;Board thickness: 1.6mm&lt;/li&gt;
 &lt;li&gt;Copper weight: 1oz (35um)&lt;/li&gt;
 &lt;li&gt;Note: annular ring aren't minimal&lt;/li&gt;
 &lt;/ul&gt;</description>
 <param name="layerSetup" value="(1+2*15+16)"/>
-<param name="mtCopper" value="0.035mm 0.0175mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.0175mm 0.035mm"/>
-<param name="mtIsolate" value="0.2mm 0.665mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
+<param name="mtCopper" value="0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm"/>
+<param name="mtIsolate" value="0.11mm 0.8mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.11mm"/>
 <param name="mdWireWire" value="5mil"/>
 <param name="mdWirePad" value="5mil"/>
 <param name="mdWireVia" value="5mil"/>
@@ -2896,7 +2900,7 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <param name="srRoundness" value="0"/>
 <param name="srMinRoundness" value="0mil"/>
 <param name="srMaxRoundness" value="0mil"/>
-<param name="slThermalIsolate" value="10mil"/>
+<param name="slThermalIsolate" value="0mil"/>
 <param name="slThermalsForVias" value="0"/>
 <param name="dpMaxLengthDifference" value="10mm"/>
 <param name="dpGapFactor" value="2.5"/>
@@ -3011,12 +3015,12 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <board_group name="PULLUP"/>
 </groups>
 <elements>
-<element name="C1" library="MM24I" package="CAPCP7343X430N" value="100UF" x="110.3" y="12.3" smashed="yes">
-<attribute name="CAPACITANCETOLERANCE" value="±20%" x="152.21" y="-19.45" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="NOJD107M010RWJ" x="152.21" y="-19.45" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="106.4856" y="14.857" size="1" layer="25" font="vector" ratio="15" rot="SR0"/>
-<attribute name="SUPPLIER" value="AVX" x="152.21" y="-19.45" size="1.778" layer="27" display="off"/>
-<attribute name="VOLTAGERATING" value="10V" x="152.21" y="-19.45" size="1.778" layer="27" display="off"/>
+<element name="C1" library="MM24I" package="CAPCP7343X430N" value="100UF" x="107.9" y="12.3" smashed="yes">
+<attribute name="CAPACITANCETOLERANCE" value="±20%" x="149.81" y="-19.45" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="NOJD107M010RWJ" x="149.81" y="-19.45" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="104.0856" y="14.857" size="1" layer="25" font="vector" ratio="15" rot="SR0"/>
+<attribute name="SUPPLIER" value="AVX" x="149.81" y="-19.45" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGERATING" value="10V" x="149.81" y="-19.45" size="1.778" layer="27" display="off"/>
 </element>
 <element name="N20" library="MM24I" package="CON18_1X18_DUTB_HRS" value="FH12-18S-0.5SV(55)" x="105" y="38.2" smashed="yes" rot="R270">
 <attribute name="BUILT_BY" value="EMA_UL_Team" x="105" y="38.2" size="1.778" layer="27" rot="R270" display="off"/>
@@ -3230,7 +3234,7 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 </elements>
 <signals>
 <signal name="GND" class="1">
-<polygon width="0" layer="2">
+<polygon width="0" layer="2" thermals="no">
 <vertex x="0" y="0"/>
 <vertex x="0" y="62.23"/>
 <vertex x="125.83" y="62.23"/>
@@ -3296,8 +3300,8 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <wire x1="74.4" y1="59.9" x2="74.4" y2="58.0352" width="0.3" layer="1"/>
 <via x="102.5" y="17.1" extent="1-16" drill="0.3"/>
 <wire x1="101.3022" y1="17.1" x2="102.5" y2="17.1" width="0.3" layer="1"/>
-<via x="114.8" y="12.3" extent="1-16" drill="0.3"/>
-<wire x1="113.0686" y1="12.3" x2="114.8" y2="12.3" width="0.3" layer="1"/>
+<via x="112.4" y="12.3" extent="1-16" drill="0.3"/>
+<wire x1="110.6686" y1="12.3" x2="112.4" y2="12.3" width="0.3" layer="1"/>
 <via x="54.6" y="13" extent="1-16" drill="0.3"/>
 <wire x1="56.5297" y1="13.65" x2="55.25" y2="13.65" width="0.3" layer="1"/>
 <wire x1="55.25" y1="13.65" x2="54.6" y2="13" width="0.3" layer="1"/>
@@ -3414,7 +3418,6 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <via x="63.8" y="44.7" extent="1-16" drill="0.3"/>
 <wire x1="54.9163" y1="11.4" x2="54.6" y2="11.4" width="0.3" layer="1"/>
 <wire x1="55.6663" y1="12.15" x2="54.9163" y2="11.4" width="0.3" layer="1"/>
-<contactref element="JP1" pad="2"/>
 <contactref element="C15" pad="2"/>
 <contactref element="C16" pad="2"/>
 <contactref element="C20" pad="2"/>
@@ -3610,14 +3613,15 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <wire x1="63.8" y1="42.7" x2="65.0924" y2="42.7" width="0.3" layer="1"/>
 <contactref element="C4" pad="2"/>
 <wire x1="64.85" y1="6.3" x2="66.1" y2="6.3" width="0.3" layer="1"/>
-<via x="66.1" y="6.3" extent="1-16" drill="0.35"/>
+<via x="66.1" y="6.3" extent="1-16" drill="0.3"/>
+<contactref element="JP1" pad="2"/>
 </signal>
 <signal name="VCC" class="1">
 <via x="54" y="52.25" extent="1-16" drill="0.3"/>
 <wire x1="55.321" y1="52.25" x2="54" y2="52.25" width="0.3" layer="1"/>
 <via x="65.4" y="53.5" extent="1-16" drill="0.3"/>
 <wire x1="63.5996" y1="53.5" x2="65.4" y2="53.5" width="0.3" layer="1"/>
-<polygon width="0" layer="15">
+<polygon width="0" layer="15" thermals="no">
 <vertex x="0" y="0"/>
 <vertex x="125.8" y="0"/>
 <vertex x="125.8" y="62.3"/>
@@ -4270,7 +4274,7 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <contactref element="IC1" pad="3"/>
 </signal>
 <signal name="VCAP" class="1">
-<wire x1="107.5314" y1="12.3" x2="101.3022" y2="12.3" width="0.3" layer="1"/>
+<wire x1="105.1314" y1="12.3" x2="101.3022" y2="12.3" width="0.3" layer="1"/>
 <contactref element="C1" pad="1"/>
 <contactref element="U3" pad="36"/>
 </signal>
@@ -5007,10 +5011,10 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 </signal>
 </signals>
 <mfgpreviewcolors>
-<mfgpreviewcolor name="soldermaskcolor" color="0xC8AA007F"/>
+<mfgpreviewcolor name="soldermaskcolor" color="0xC8000000"/>
 <mfgpreviewcolor name="silkscreencolor" color="0xFFFFFFFF"/>
 <mfgpreviewcolor name="backgroundcolor" color="0xFF282828"/>
-<mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
+<mfgpreviewcolor name="coppercolor" color="0xFFFFAA00"/>
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
 </board>

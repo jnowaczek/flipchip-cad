@@ -36,7 +36,7 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
@@ -121,6 +121,7 @@
 <dimension x1="29.21" y1="56.388" x2="34.29" y2="56.515" x3="31.75" y3="58.42" textsize="1.778" layer="51" dtype="horizontal" unit="mil"/>
 <text x="19.69" y="60.83" size="1.778" layer="1" font="vector" ratio="15" rot="SR0" align="top-left">W021J</text>
 <text x="19.69" y="60.83" size="1.778" layer="29" font="vector" ratio="15" rot="SR0" align="top-left">W021J</text>
+<text x="19.69" y="60.83" size="1.778" layer="1" font="vector" ratio="15" rot="SR0" align="top-left">W021J</text>
 </plain>
 <libraries>
 <library name="MM24I">
@@ -651,7 +652,7 @@
 <element name="J1" library="MM24I" package="503480-1800" value="503480-1800" x="29.21" y="26.8088" smashed="yes" rot="R90">
 <attribute name="BUILT_BY" value="EMA_UL_Team" x="33.02" y="69.9888" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="503480-0600" x="33.02" y="69.9888" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="28.702" y="25.7166" size="1" layer="25" font="vector" rot="SR90"/>
+<attribute name="NAME" x="28.702" y="36.6166" size="1" layer="25" font="vector" ratio="15" rot="SR0"/>
 <attribute name="VENDOR" value="Molex Connector Corporation" x="33.02" y="69.9888" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="EDGE1" library="dec-con" package="EDGE-CON2" value="EDGE-2CONNECTOR" x="0" y="0" smashed="yes"/>
@@ -855,8 +856,8 @@
 <mfgpreviewcolors>
 <mfgpreviewcolor name="soldermaskcolor" color="0xC8FFFFFF"/>
 <mfgpreviewcolor name="silkscreencolor" color="0xFF000000"/>
-<mfgpreviewcolor name="backgroundcolor" color="0xFF000000"/>
-<mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
+<mfgpreviewcolor name="backgroundcolor" color="0xFF282828"/>
+<mfgpreviewcolor name="coppercolor" color="0xFFFFAA00"/>
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
 </board>
