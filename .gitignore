@@ -1,1 +1,10 @@
 .DS_Store
+
+# Ignore library backups
+*/*.l#[1-9]
+
+# Ignore schematic backups
+*/*.s#[1-9]
+
+# Ignore board backups
+*/*.b#[1-9]
