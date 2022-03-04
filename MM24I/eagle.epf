@@ -1,5 +1,5 @@
 [Eagle]
-Version="09 05 02"
+Version="09 06 02"
 Platform="Mac OS X"
 Globals="Globals"
 Desktop="Desktop"
@@ -271,8 +271,12 @@ UsedLibrary="/Users/julian/Documents/EAGLE/projects/flipchip-cad/libraries/MM24I
 UsedLibrary="/Users/julian/Documents/EAGLE/projects/flipchip-cad/libraries/dec-con.lbr"
 
 [Win_1]
+Type="Control Panel"
+Number=0
+
+[Win_2]
 Type="Schematic Editor"
-Number=2
+Number=1
 File="MM24I.sch"
 View="-5.9 -4.63 285.3 220.53"
 WireWidths=" 0.0762 0.1016 0.127 0.15 0.2 0.2032 0.254 0.3048 0.4064 0.508 0.6096 0.8128 1.016 1.27 2.54 0.1524"
@@ -315,15 +319,11 @@ PadsSameType=0
 Layer=91
 Sheet="1"
 
-[Win_2]
-Type="Control Panel"
-Number=0
-
 [Win_3]
 Type="Board Editor"
-Number=1
+Number=2
 File="MM24I.brd"
-View="64.1313 7.84401 73.5226 8.42118"
+View="38.1632 2.50648 54.5383 10.6802"
 WireWidths=" 0.0762 0.1016 0.127 0.15 0.2 0.2032 0.254 0.3048 0.4064 0.508 0.6096 0.8128 1.016 1.27 2.54 0.1524"
 PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
 PadDrills=" 0.2 0.25 0.3 0.35 0.4 0.45 0.5 0.55 0.65 0.7 0.75 0.8 0.85 0.9 1 0.6"
